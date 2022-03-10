@@ -9,5 +9,9 @@ package groovylab
 class TaskCalculator {
     public static Number exec(String expression) {
         throw UnsupportedOperationException('Not Implemented!')
+        def x = 5;
+        def y = 10;
+        def z = 15;
+        println(x+y);
     }
 }
